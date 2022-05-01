@@ -1,0 +1,156 @@
+body{
+  background: url(../img/Fondo.jpg);
+}
+header, .alert{
+  z-index: 100;
+}
+
+h5{
+  font-size: 1.5em;
+}
+
+.col:hover{
+  transform: scale(1.05);
+}
+
+.form-control{
+  width: 20% !important;
+  margin-left: 60%;
+}
+
+.description{
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide, .remove{
+  display: none;
+}
+
+
+
+/* carrito */
+.nav-link {
+  color:#ffffff !important;
+  z-index: 2;
+  position: fixed;
+  bottom: 45rem;
+  right: 1rem;  
+  border-radius: 80px 40px;
+  background: #077d07 !important;
+  box-shadow: 0 0 5px #ffae00, 0 0 25px #ffae00, 0 0 50px #ffae00, 0 0 200px #ffae00;  
+}
+
+a:hover {
+  border-radius: 20px 40px;
+  background: #e5be01;
+  box-shadow: 0 0 5px #ffffff, 0 0 25px #eff2f4, 0 0 50px #e0e0e1, 0 0 200px #ffffff; }
+
+
+
+
+/* NAVBAR */
+#navbarSupportedContent {
+  padding: 2%;
+  font-size: 1.5em; }
+
+.navbar-nav {
+  padding-right: 3%; }
+
+.navbar {
+  padding-right: 3%;
+  background-image: url("../img/Navbar.gif");
+  top: 0; }
+
+/* SWEETALERT */ 
+
+body.swal2-shown > [aria-hidden="true"] {
+  transition: 0.3s filter;
+  filter: blur(4px); }
+
+/* FOOTER */
+footer {
+  position: absolute;
+  width: 100%;
+  padding-left: 1vw;
+  background-image: url("../img/Navbar.gif");
+  color: #6c757d;
+  font-size: 1.2em; }
+  footer .navbar-brand img {
+    width: 150px; }
+  footer .redes img {
+    width: 2.5vw;
+    margin-top: 5px; }
+  footer .redes-zoom:hover {
+    transform: scale(1.5); }
+  footer .redes ul li {
+    display: inline;
+    margin-left: 10px; }
+  footer .redes ul li a {
+    text-decoration: unset; }
+  footer.producto {
+    margin-top: 5vh !important; }
+  footer .row {
+    width: 100%; }
+  footer .my-md-5 {
+    margin-top: unset !important;
+    margin-bottom: unset !important; }
+  footer .bursatil {
+    font-family: 'Russo One', sans-serif;
+    color: #e5be01;
+    font-size: 2em; }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    footer {
+      padding-left: 3vw; } }
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    footer {
+      padding-left: 3vw; } }
+  @media only screen and (max-width: 600px) {
+    footer {
+      padding-left: 3vw; }
+    footer .row {
+      margin-left: 2px; }
+    footer .redes img {
+      width: 4.5vw; } }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    footer {
+      font-size: 1.1em; } }
+/* FOOTER FIN */
+
+/* Api Mapa */
+#map {
+	height: 95%;
+	width: 100%;  
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #F21365 !important;
+}
